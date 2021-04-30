@@ -10,4 +10,6 @@ This system uses a single printed part (Pebble_Wiper), a micro servo with dimens
 
 Files with the prefix TESTING are separate mechanism and mounting files so you can dial in the offsets to fit the mounting positions on your printer.
 
+I recently added the files for a Pebble Wiper which should work on the E3D Tool Changer / Motion System.
+
 I have included the macro I use to activate the wiper during use. I add the callout of this macro to my tool change gcode in my slicer. I use PrusaSlicer, and cannot speak to the efficacy using other slicers, or printers not running RRF3.
