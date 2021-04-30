@@ -1,6 +1,9 @@
 # Pebble_Wiper
 Pebble Wiper for Tool Changing 3D Printers
 
+Check out my Youtube video explaining the Pebble Wiper!
+https://youtu.be/EdZrv_zDask
+
 I created these files for my own personal use, but due to widespread interest have posted them here. 
 At this time I am the only person to have used this system, and as such am only releasing the files as release candidates for future, more pollished releases once others have been able to inegrate it into their machines.
 
