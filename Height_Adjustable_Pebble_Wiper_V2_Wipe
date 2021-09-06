@@ -1,0 +1,25 @@
+G91                          
+G1 Z0.4 F9000                	; Drop Z 0.4mm for Safety
+G90                           
+
+M106 P7 S.93					; Set Servo Position for Wipe
+
+G1 X324 Y141 A7.1 F24000		; Set Up for Vertical Purge with Nozzle Closer to Purge Platform
+
+G1 E2 F600						; Purge Filament To Nozzle 
+
+G1 X320 Y138.5 A7.1 F24000	    ; Position Nozzle for Initial Purge
+
+G1 E4 F480						; Initial Vertical Purge
+G1 A8 F120						; Move Nozzle Away From Purge Platform
+G1 E10 F300	 					; Pebble Purge
+M106 S.4						; Cooling 93%
+
+G1 E-.6							; Retract
+
+G4 P2000						; Dwell for 2s
+M106 P7 S.45					; Servo Wipe
+M106 S0							; Cooling Off
+G4 P250							; Dwell for .25s
+G1 X315 Y168 F24000				; Move Nozzle Across Silicone Brush
+G92 E0							; Reset Extrusion

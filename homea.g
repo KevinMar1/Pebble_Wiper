@@ -1,0 +1,10 @@
+; called to home the A axis (Pebble)
+
+G92 A60
+M913 A40			; A MOTOR TO 40% CURRENT
+G1 A-80 F4800
+M913 A100			; A MOTOR TO 100% CURRENT
+G1 A5 F4800
+G92 A5
+
+M400
