@@ -1,6 +1,8 @@
 # Pebble_Wiper
 Pebble Wiper for Tool Changing 3D Printers
 
+Say goodbye to purge towers and boogers on your prints!
+
 Check out my Youtube video explaining the Pebble Wiper!
 https://youtu.be/EdZrv_zDask
 
